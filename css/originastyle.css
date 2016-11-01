@@ -1,0 +1,24 @@
+body {
+	
+}
+
+.container {
+	max-width: 650px;
+	background-color: #efefef;
+	height: 350px;
+	margin: 0;
+	padding: 10px;
+}
+
+#cat {
+	float: right;
+}
+
+#cat-list {
+	float: left;
+}
+
+#cat-img {
+	height: 150px;
+	width: 200px;
+}

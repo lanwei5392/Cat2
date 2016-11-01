@@ -1,20 +1,19 @@
 //modle is an object literal
 var model = {
-    selectedCat: null,
+    //selectedCat: null,
  
-    cats: [
+    cats: [     
         {
-        name: 'Mimi',
-        clicks: 0,
-        image: 'img/cat-1.jpg'
+            name: 'Mimi',
+            clicks: 0,
+            image: 'img/cat-1.jpg'
         },
- 
         {
-        name: 'Lily',
-        clicks: 0,
-        image: 'img/cat-2.jpg'
+            name: 'Lily',
+            clicks: 0,
+            image: 'img/cat-2.jpg'
         }
-    ]             
+    ]
 };
  
 var octopus = {
