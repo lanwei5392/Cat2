@@ -83,11 +83,11 @@ var catListView = {
                     octopus.setCurrentCat(catCopy);
                     catView.render();
                 };
-            })(cat);
+            }(cat));
 
         //Finally, add the element to the list.
         this.catListElem.appendChild(elem);
-        };
+        }
     }
 };
 
@@ -117,9 +117,11 @@ var catView = {
         this.countElem.textContent = selectedCat.clicks;
         this.catNameElem.textContent = selectedCat.name;
         this.catImageElem.src = selectedCat.image;
-        this.catimgUrl.textContent = "The path to this image is" + selectedCat.image;
+        //this.catimgUrl.textContent = "The path to this image is" + selectedCat.image;
     }
 };
+
+octopus.init();
 
 
 /*
